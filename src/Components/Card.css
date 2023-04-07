@@ -1,0 +1,54 @@
+.card-item {
+  width: 300px;
+  margin: 1rem;
+  position: relative;
+  border-radius: 8px;
+  background: #f0edcc;
+  padding-bottom: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 20px 40px rgba(87, 84, 84, 0.328);
+}
+.card-item:hover {
+  transform: rotate(1deg);
+  box-shadow: 0 20px 40px rgba(16, 14, 14, 0.5);
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  position: relative;
+  transition: all 0.5s;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image1 {
+  background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80");
+}
+
+.content {
+  padding: 1rem;
+}
+
+.title {
+  margin: 1rem 0;
+  color: #e65b00;
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  color: #02343f;
+}
+
+.button {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 18px;
+  text-decoration: none;
+  background-color: #e65b00;
+}
